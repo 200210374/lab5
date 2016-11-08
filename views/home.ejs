@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+</head>
+<body>
+
+
+<% if(  true){ %>
+<header>
+
+
+    <% include ./partials/header %></header>
+
+
+<footer><% include ./partials/footer %></footer>
+
+<td><a href="/users" class="confirmation">User Listing</a></td>
+<% } %>
+<% else{ %>
+<h1>User is not logged in</h1>
+<% } %>
+
+
+</body>
+</html>
+
